@@ -39,6 +39,11 @@ const ListItem = styled.li`
       background-color: #ff7272;
       color: #ffffff;
       cursor: pointer;
+      transition: 0.2s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #ff3f3f; 
   }
 `;
 
